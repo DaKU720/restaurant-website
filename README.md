@@ -32,5 +32,3 @@ The app will be available at [http://localhost:3000](http://localhost:3000).
 - **Next.js**
 - **Yarn** (Package Manager)
 - **shadcn/ui** (UI Components)
-
-Enjoy building and customizing your restaurant website! 🎉
