@@ -1,10 +1,11 @@
 // We import ready pages here!
-//import ChefPage from "@/app/pages/DaKU720/OurChef/page";
-const HomePage = () => {
+import ChefPage from "@/app/pages/DaKU720/OurChef/page";
+
+const Home = () => {
   return (
-      <main className="container px-4 mx-auto">
-        {/*<ChefPage />*/}
+      <main>
+        <ChefPage />
       </main>
   )
 }
-export default HomePage
+export default Home
