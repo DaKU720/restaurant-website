@@ -8,7 +8,7 @@ A modern restaurant website built with **Next.js** and **shadcn/ui**.
 
 ### 1. Clone the Repository
 ```bash
-git clone <REPOSITORY_URL>
+git@github.com:DaKU720/restaurant-website.git
 cd restaurant-website
 ```
 
