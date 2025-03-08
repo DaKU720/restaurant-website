@@ -51,7 +51,7 @@ const ChefPage = () => {
                         >
                             <img
                                 src={advantage.image}
-                                className="h-6 md:h-5"
+                                className="h-16 md:h-5"
                                 alt={advantage.text}
                             />
                             <p className="text-gray-800">{advantage.text}</p>
