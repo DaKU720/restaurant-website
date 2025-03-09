@@ -1,4 +1,4 @@
-import {Button} from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 
 const ChefPage = () => {
     const advantageText = [
@@ -27,14 +27,17 @@ const ChefPage = () => {
             image: "https://i.imgur.com/ES39rm7.png"
         },
     ];
+
     return (
-        <div className="flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-screen p-4 md:p-0">
+        <div className="flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-screen pt-20 md:p-0">
 
             {/* Left side - Text and buttons */}
             <div className="w-full md:w-1/2 flex flex-col justify-center items-start space-y-6 md:p-10 gap-6 md:gap-10">
                 <div>
-                    <h1 className="text-4xl md:text-7xl font-bold mb-4 md:mb-6">Our Expert Chef</h1>
-                    <p className="text-lg md:text-xl">
+                    <h1 className="font-bold mb-4 md:mb-6" style={{ fontSize: "var(--text-5xl)" }}>
+                        Our Expert Chef
+                    </h1>
+                    <p style={{ fontSize: "var(--text-xl)" }}>
                         Discover the passion and artistry of our top chef, bringing innovative recipes and exemplary
                         flavors
                         to your plate every day. With years of experience and a focus on quality, we ensure each meal is
@@ -47,7 +50,8 @@ const ChefPage = () => {
                     {advantageText.map((advantage, index) => (
                         <div
                             key={index}
-                            className="flex items-center space-x-4 text-lg md:text-xl"
+                            className="flex items-center space-x-4"
+                            style={{ fontSize: "var(--text-lg)" }}
                         >
                             <img
                                 src={advantage.image}
@@ -61,8 +65,8 @@ const ChefPage = () => {
 
                 {/* Buttons section */}
                 <div className="flex flex-col md:flex-row justify-start w-full space-y-4 md:space-y-0 md:space-x-4">
-                    <Button className="w-full md:w-auto">Menu</Button>
-                    <Button className="w-full md:w-auto bg-[#f6651c]">Book a Table</Button>
+                    <Button className="w-full md:w-auto" style={{ fontSize: "var(--text-lg)" }}>Menu</Button>
+                    <Button className="w-full md:w-auto bg-[#f6651c]" style={{ fontSize: "var(--text-lg)" }}>Book a Table</Button>
                 </div>
             </div>
 
