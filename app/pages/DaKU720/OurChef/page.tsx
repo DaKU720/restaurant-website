@@ -74,7 +74,7 @@ const ChefPage = () => {
             <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
                 <img
                     src="https://i.imgur.com/BxwYgFI.png"
-                    className="h-auto md:h-[800px] w-full md:w-auto object-cover"
+                    className="h-auto max-w-full w-full object-cover"
                     alt="Chef"
                 />
             </div>
