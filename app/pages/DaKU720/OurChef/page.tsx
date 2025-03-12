@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import AnimatedDiv from "../../AnimatedDiv/AnimatedDiv";
 
 const ChefPage = () => {
     const advantageText = [
@@ -30,7 +29,6 @@ const ChefPage = () => {
     ];
 
     return (
-        <AnimatedDiv>
         <div className="flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-screen pt-20 md:p-0">
 
             {/* Left side - Text and buttons */}
@@ -76,12 +74,11 @@ const ChefPage = () => {
             <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
                 <img
                     src="https://i.imgur.com/BxwYgFI.png"
-                    className="h-auto max-w-full w-full object-cover"
+                    className="h-auto md:h-[800px] w-full md:w-auto object-cover"
                     alt="Chef"
                 />
             </div>
         </div>
-        </AnimatedDiv>
     );
 };
 
