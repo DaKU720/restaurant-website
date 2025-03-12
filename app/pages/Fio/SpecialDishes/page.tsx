@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import AnimatedDiv from "../../AnimatedDiv/AnimatedDiv";
 
 const SpecialDishes = () => {
     const dishes = [
@@ -25,6 +26,7 @@ const SpecialDishes = () => {
     ];
 
     return (
+        <AnimatedDiv>
         <div className="w-full h-auto md:h-screen mt-30 md:p-0 flex flex-col items-center">
             {/* Top */}
             <div className="text-center mb-12">
@@ -51,6 +53,7 @@ const SpecialDishes = () => {
                 ))}
             </div>
         </div>
+        </AnimatedDiv>
     );
 };
 
