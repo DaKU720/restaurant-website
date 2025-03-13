@@ -13,7 +13,7 @@ import {
 export default function Navbar() {
   return (
     <motion.nav
-      className="fixed top-0 left-0 w-screen bg-white px-4 md:px-8 py-4 flex items-center justify-between"
+      className="fixed top-0 left-0 w-screen bg-white px-4 md:px-8 py-4 flex items-center justify-between z-50"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1.2 }}

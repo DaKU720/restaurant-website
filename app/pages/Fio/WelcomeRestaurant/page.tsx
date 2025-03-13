@@ -4,7 +4,8 @@ import { Button } from "@/components/ui/button";
 const WelcomeRest = () => {
     return (
         <AnimatedDiv duration={1.5}>
-            <div className="flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-screen pt-20 md:p-0">
+        <div className="flex flex-col md:flex-row justify-center items-center w-full h-auto min-h-screen md:p-0">
+
                 <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
                     <img
                         src="https://i.imgur.com/Krl9c4f.png"
