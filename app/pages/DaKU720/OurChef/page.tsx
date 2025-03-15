@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import {Button} from "@/components/ui/button";
 
 const ChefPage = () => {
     const advantageText = [
@@ -29,15 +29,18 @@ const ChefPage = () => {
     ];
 
     return (
-        <div className="flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-screen pt-20 md:p-0">
+        <div
+            className="p-4 flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-screen pt-20 md:p-0">
 
             {/* Left side - Text and buttons */}
-            <div className="w-full md:w-1/2 flex flex-col justify-center items-start space-y-6 md:p-10 gap-6 md:gap-10">
+            <div
+                className="w-full md:w-1/2 flex flex-col justify-center md:justify-center items-center md:items-start space-y-6 md:p-10 gap-6 md:gap-10">
                 <div>
-                    <h1 className="font-bold mb-4 md:mb-6" style={{ fontSize: "var(--text-5xl)" }}>
+                    <h1 className="font-bold mb-4 md:mb-6 text-center md:text-left"
+                        style={{fontSize: "var(--text-5xl)"}}>
                         Our Expert Chef
                     </h1>
-                    <p style={{ fontSize: "var(--text-xl)" }}>
+                    <p className="text-center md:text-left" style={{fontSize: "var(--text-xl)"}}>
                         Discover the passion and artistry of our top chef, bringing innovative recipes and exemplary
                         flavors
                         to your plate every day. With years of experience and a focus on quality, we ensure each meal is
@@ -51,11 +54,11 @@ const ChefPage = () => {
                         <div
                             key={index}
                             className="flex items-center space-x-4"
-                            style={{ fontSize: "var(--text-lg)" }}
+                            style={{fontSize: "var(--text-lg)"}}
                         >
                             <img
                                 src={advantage.image}
-                                className="h-16 md:h-5"
+                                className="h-8 md:h-5"
                                 alt={advantage.text}
                             />
                             <p className="text-gray-800">{advantage.text}</p>
@@ -64,9 +67,11 @@ const ChefPage = () => {
                 </div>
 
                 {/* Buttons section */}
-                <div className="flex flex-col md:flex-row justify-start w-full space-y-4 md:space-y-0 md:space-x-4">
-                    <Button className="w-full md:w-auto" style={{ fontSize: "var(--text-lg)" }}>Menu</Button>
-                    <Button className="w-full md:w-auto bg-[#f6651c]" style={{ fontSize: "var(--text-lg)" }}>Book a Table</Button>
+                <div
+                    className="flex flex-col md:flex-row justify-center md:justify-start w-full space-y-4 md:space-y-0 md:space-x-4">
+                    <Button className="w-full md:w-auto" style={{fontSize: "var(--text-lg)"}}>Menu</Button>
+                    <Button className="w-full md:w-auto bg-[#f6651c]" style={{fontSize: "var(--text-lg)"}}>Book a
+                        Table</Button>
                 </div>
             </div>
 

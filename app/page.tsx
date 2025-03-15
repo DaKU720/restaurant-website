@@ -16,6 +16,7 @@ const Home = () => {
         <WelcomeRest />
         <ChefPage />
         <HappyCustomers />
+          <Footer />
       </main>
   )
 }
