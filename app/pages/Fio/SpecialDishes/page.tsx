@@ -27,7 +27,7 @@ const SpecialDishes = () => {
 
     return (
         <AnimatedDiv>
-        <div className="w-full h-auto mt-20 md:p-20 flex flex-col items-center">
+        <div id="dishes" className="w-full h-auto mt-20 md:p-20 flex flex-col items-center">
             {/* Top */}
             <div className="text-center mb-12">
                 <h2 className="font-bold text-gray-800" style={{ fontSize: "var(--text-5xl)" }}>Our Special Dishes</h2>

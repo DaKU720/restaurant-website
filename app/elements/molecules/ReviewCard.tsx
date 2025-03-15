@@ -57,7 +57,7 @@ const ReviewCard = () => {
     }, []);
 
     return (
-        <div className="w-full flex items-center justify-center relative">
+        <div id="cust" className="w-full flex items-center justify-center relative">
             <button
                 onClick={prevSlide}
                 className="absolute left-2 bg-gray-300 hover:bg-gray-400 text-gray-700 font-bold py-2 px-4 rounded z-10 md:left-0"

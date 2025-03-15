@@ -5,7 +5,7 @@ import {FaFacebookF, FaInstagram, FaDiscord} from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className="p-5">
+        <div id="footer" className="p-5">
             <div>
                 <NewsLetter/>
             </div>

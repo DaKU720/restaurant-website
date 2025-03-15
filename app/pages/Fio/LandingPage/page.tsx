@@ -5,7 +5,7 @@ import AnimatedDiv from "../../AnimatedDiv/AnimatedDiv";
 export default function HeroSection() {
   return (
     <AnimatedDiv>
-      <section className="relative flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-screen md:mt-14 mt-20 md:p-0 bg-white">
+      <section id="preview" className="relative flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-screen md:mt-14 mt-20 md:p-0 bg-white">
         
         {/* Left Part */}
         <div className="w-full md:w-1/2 flex flex-col justify-center items-start space-y-6 md:p-10 gap-6 md:gap-10">

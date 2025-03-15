@@ -46,28 +46,33 @@ export default function Navbar() {
             className="right-0 w-48 mt-2 space-y-2"
           >
             <DropdownMenuItem asChild>
-              <Link href="#menu" style={{ fontSize: "var(--text-lg)" }}>
-                Menu
+              <Link href="#preview" className="text-gray-700" style={{ fontSize: "var(--text-lg)" }}>
+                Preview
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
-              <Link href="#events" style={{ fontSize: "var(--text-lg)" }}>
-                Events
+              <Link href="#dishes" className="text-gray-700" style={{ fontSize: "var(--text-lg)" }}>
+                Dishes
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
-              <Link href="#gallery" style={{ fontSize: "var(--text-lg)" }}>
-                Gallery
+              <Link href="#welcomeRest" className="text-gray-700" style={{ fontSize: "var(--text-lg)" }}>
+                Welcome
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
-              <Link href="#about" style={{ fontSize: "var(--text-lg)" }}>
-                About
+              <Link href="#chef" className="text-gray-700" style={{ fontSize: "var(--text-lg)" }}>
+                Chef
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
-              <Link href="#contact" style={{ fontSize: "var(--text-lg)" }}>
-                Contact
+              <Link href="#cust" className="text-gray-700" style={{ fontSize: "var(--text-lg)" }}>
+                Customers
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link href="#footer" className="text-gray-700" style={{ fontSize: "var(--text-lg)" }}>
+                Footer
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
@@ -87,47 +92,56 @@ export default function Navbar() {
       <ul className="hidden md:flex space-x-8 text-gray-700">
         <li>
           <Link
-            href="#menu"
+            href="#preview"
             className="hover:text-orange-500"
             style={{ fontSize: "var(--text-lg)" }}
           >
-            Menu
+            Preview
           </Link>
         </li>
         <li>
           <Link
-            href="#events"
+            href="#dishes"
             className="hover:text-orange-500"
             style={{ fontSize: "var(--text-lg)" }}
           >
-            Events
+            Dishes
           </Link>
         </li>
         <li>
           <Link
-            href="#gallery"
+            href="#welcomeRest"
             className="hover:text-orange-500"
             style={{ fontSize: "var(--text-lg)" }}
           >
-            Gallery
+            Welcome
           </Link>
         </li>
         <li>
           <Link
-            href="#about"
+            href="#chef"
             className="hover:text-orange-500"
             style={{ fontSize: "var(--text-lg)" }}
           >
-            About
+            Chef
           </Link>
         </li>
         <li>
           <Link
-            href="#contact"
+            href="#cust"
             className="hover:text-orange-500"
             style={{ fontSize: "var(--text-lg)" }}
           >
-            Contact
+            Customers
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="#footer"
+            className="hover:text-orange-500"
+            style={{ fontSize: "var(--text-lg)" }}
+          >
+            Footer
           </Link>
         </li>
         <li>

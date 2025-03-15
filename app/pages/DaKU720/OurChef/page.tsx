@@ -29,8 +29,7 @@ const ChefPage = () => {
     ];
 
     return (
-        <div
-            className="p-4 flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-screen pt-20 md:p-0">
+        <div id="chef" className="p-4 flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-screen pt-20 md:p-0">
 
             {/* Left side - Text and buttons */}
             <div
